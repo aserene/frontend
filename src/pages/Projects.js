@@ -5,7 +5,7 @@ function Projects(props) {
   const projects = useLoaderData()
 
     return projects.map((project) => (
-      <div>
+      <div className="container">
         <h1>{project.name}</h1>
         <img src={project.image} alt={project.name}/>
         <a href={project.git}>
