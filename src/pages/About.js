@@ -5,9 +5,11 @@ function About(props) {
   const about = useLoaderData()
 
   return <div className="container">
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+      <div className="card">
+      <h2>Hi! I'm {about.name}</h2>
+      <h3>Email me @ {about.email}</h3>
+      <p>About Me - {about.bio}</p>
+      </div>
     </div>
 }
 

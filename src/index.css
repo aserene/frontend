@@ -1,12 +1,65 @@
-body {
+html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, rgb(246, 209, 134), rgb(247, 140, 239));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img{
+  width:40em;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 5px
+}
+.container{
+  text-align: center
+}
+.container button {
+  width:20em;
+  background-color: rgb(255, 202, 95);
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.container button:hover{
+  text-decoration: underline;
+}
+.git{
+  margin-right: 5px;
+}
+.view{
+  margin-left: 5px;
+}
+.footer, .home {
+  display: flex;
+  text-align: center;
+}
+.footer h1, .home h1{
+  margin: auto;
+}
+nav a{
+  text-decoration: none;
+  color:black
+}
+nav a:hover{
+  text-decoration: underline;
+}
+.card {
+  background-color: rgb(255, 221, 110);
+  width:40em;
+  margin: auto;
+  text-align: left;
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 10px
 }

@@ -6,13 +6,14 @@ function Projects(props) {
 
     return projects.map((project) => (
       <div className="container">
-        <h1>{project.name}</h1>
+        <h2>{project.name}</h2>
         <img src={project.image} alt={project.name}/>
+        <br/>
         <a href={project.git}>
-          <button>Github</button>
+          <button className="git">View in Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button className="view">View Live Site</button>
         </a>
       </div>
     ));

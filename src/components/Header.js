@@ -6,8 +6,9 @@ function Header(props) {
     display: "flex",
     justifyContent: "space-around",
     border: "3px solid black",
+    borderRadius: "10px",
     padding: "8px",
-    width: "90%",
+    width: "95%",
     margin: "auto"
   }
 
